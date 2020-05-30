@@ -1,3 +1,5 @@
+#Big Data-Pyspark
+
 This repository contains the codes of all pyspark tasks with the relevant material ,performed in the course of Introduction to Cloud Computing  at Rutgers University in the department of Electrical and Computer Engineering. 
 
 Description of Tasks is as follows:
@@ -13,9 +15,9 @@ Spark can also be used for compute-intensive tasks. This code estimates π by "t
 
 Task 5: Search Text and Create RDDs: Practice from SCALA to Python
 Convert the SCALA code below to Python, run it and show results. If there are errors in the given code that prevent you from obtaining the expected result, please make a simple fix and show result.
-from pyspark import SparkContext
 
-# Insert your own code, transform the code below:
+from pyspark import SparkContext
+--Insert your code and transform
 val lines = sc.textFile("file01_Hd_Sp_Freq.txt ")
 // transformed RDDs
 val selfish = lines.filter(_.startsWith("I"))
